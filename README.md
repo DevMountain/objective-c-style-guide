@@ -30,19 +30,19 @@ We welcome feedback. The guide was informed by our developers, documents from [A
 * Indents should use 4 spaces. Never indent with tabs. Be sure to set this preference in Xcode.
 * Method braces and other braces (`if`/`else`/`switch`/`while` etc.) always open on the same line as the statement but close on a new line.
 * `else` should be nested between the closing bracket of the `if` and the opening bracket.
-* There should always be a space after statement declarations and before braces.
+* There should always be a space after statement declarations and before braces
 * There should be a space around each equal sign and (`=`) and math (`+`, `-`, `*`, `/`, `>`, `<`)
 
 **Example:**
 ```objc
 if (user.isHappy) {
     user.heart = happy + joy;    
-}
-else {
+} else {
     user.face = sad + cry;    
 }
 ```
 * There should be exactly one blank line between methods to aid in visual clarity and organization. Whitespace within methods should separate functionality.
+  * Additional blank lines may be used above pragma marks in order to break up groups of methods.
 * `@synthesize` and `@dynamic` should each be declared on new lines in the implementation.
 
 ## Methods
