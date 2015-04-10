@@ -4,6 +4,8 @@ This style guide outlines the coding conventions used by mentors and teachers an
 
 We welcome feedback. The guide was informed by our developers, documents from [Apple](#apple-docs), [Ash Furrow](http://ashfurrow.com/blog/structuring-modern-objective-c), [Objective Clean](www.objclean.com), [GitHub](https://github.com/github/objective-c-conventions), and the [NYTimes Style Guide](https://github.com/NYTimes/objetive-c-style-guide). There may be slight differences, but these are excellent resources.
 
+This is a _style_ guide. There are a handful of recommendations that will impact performance, and protect your team from bugs. However, there are also a number of rules that are more about style than function. The first rule is consistency. If you insist on ignoring a rule because you favor a different style, that is likely fine. Just always be clear, and be consistent.
+
 ## Table of Contents
 
 * [Spacing](#spacing)
